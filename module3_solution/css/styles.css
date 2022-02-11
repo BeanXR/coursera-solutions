@@ -1,0 +1,67 @@
+#header-nav{
+  background-color: dimgray;
+  border:  2px solid black;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  color: black;
+  font-weight: bold;
+}
+
+#nav-list a{
+  color: black;
+  font-size: 1.5em;
+}
+
+/*back to top*/
+.menu-item-details a{
+  color: yellow;
+}
+
+/*tiTLe*/
+#menu-title{
+  margin-bottom: 25px;
+  margin-top: -10px;
+  color: black;
+}
+
+/*tILe*/
+#menu-tile{
+  background-color: dimgray;
+  color: black;
+  margin-left: auto;
+  margin-right: auto ;
+  width: 100%;
+  border: solid black 2px;
+  margin-bottom: 15px;
+  height: 700px;
+}
+
+#menu-item-chicken,#menu-item-beef,#menu-item-lamb{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.menu-item-details{
+  margin: 0 10px;
+}
+
+@media (max-width: 768px){
+  #nav-list a{
+  background-color: white;
+
+  border: black solid 1px;
+  }
+
+  /*remove dropdown menu margin*/
+  #collapsable-nav{
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
